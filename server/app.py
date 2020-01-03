@@ -17,6 +17,9 @@ while True:
     # Our operations on the frame come here
     print(frame.shape)
     # Display the resulting frame
+
+    cv.imshow('frame', frame)
+
     if cv.waitKey(1) == ord('q'):
         break
 
